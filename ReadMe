@@ -1,0 +1,15 @@
+READ ME FILE
+
+1. COMPILE
+
+	iverilog -o tt.vvp e16332_cpu.v
+
+
+2.RUN
+
+	vvp tt.vvp
+
+
+3.OPEN WITH GTKWAVE TOOL
+
+	 gtkwave cpu_wavedata.vcd
